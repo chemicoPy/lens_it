@@ -11,5 +11,5 @@ Also, to note: Image file must be in the same location as the code file.
     Using Spyder IDLE?
     Just open “exp_txt” in variable explorer panel
 
-Please edit the saved text document just in case some alphabets are be mistaken for another.
+Please edit the saved text document just in case some alphabets are mistaken for another.
 
