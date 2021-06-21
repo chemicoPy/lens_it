@@ -1,6 +1,13 @@
 # lens_it
 
-is an OCR – Optical Character Recognition model that does the work of visual analysis – simply identifies text characters in digital images (examines & translates the characters into code that can be used for data processing) and saves texts from image as readable document.
+Requirement: Download & install Tesseract-OCR and copy the installed/saved path to code as I have it in line 25.  Please find the Tesseract-OCR software in this repository.
+Also, to note: Image file must be in the same location as the code file.
+-	Run and enter the filename including its extension in the program. For example: computer.jpg
+- Wait for few seconds till the program ends its running (import image will be displayed).
+- Finally, check for the saved text document in the same location as the image file & code file. Saved as “exp_txt”.
 
-PS:  "summary chapter 5.png" is a test image
+    Using Spyder IDLE?
+    Just open “exp_txt” in variable explorer panel
+
+Please edit the saved text document just in case some alphabets are be mistaken for another.
 
