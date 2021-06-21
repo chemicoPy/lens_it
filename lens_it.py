@@ -25,7 +25,8 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 from pytesseract import *
 
-id_card = cv2.imread("summary chapter 5.png")
+id_card_input = input ("Enter name of image file; e.g computer.jpg : ")
+id_card = cv2.imread(id_card_input)
 gray = cv2.cvtColor(id_card, cv2.COLOR_RGB2GRAY)
 
 gray, img_bin = cv2.threshold(gray, 128,255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
